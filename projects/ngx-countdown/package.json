@@ -1,0 +1,32 @@
+{
+  "name": "@iamserver/ngx-countdown",
+  "version": "0.0.1",
+  "description": "@iamserver/ngx-countdown is an Angular library that provides a customizable countdown directive for displaying countdown timers in your Angular applications. With @iamserver/ngx-countdown, you have full control over the styling of your countdown timer, allowing you to create a timer that matches your application's design.",
+  "author": "Ola Dayo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iAmServer/ngx-countdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iAmServer/ngx-countdown/issues"
+  },
+  "homepage": "https://github.com/iAmServer/ngx-countdown",
+  "keywords": [
+    "angular",
+    "countdown",
+    "timer",
+    "ngx-countdown-timer",
+    "ngx-countdown",
+    "ngx-countdown2",
+    "ngx-timer"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
