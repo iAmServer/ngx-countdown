@@ -5,21 +5,21 @@
   "projects": {
     "ngx-countdown": {
       "projectType": "library",
-      "root": "projects/ngx-countdown",
-      "sourceRoot": "projects/ngx-countdown/src",
+      "root": "src/ngx-countdown",
+      "sourceRoot": "src/ngx-countdown/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-countdown/ng-package.json"
+            "project": "src/ngx-countdown/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-countdown/tsconfig.lib.prod.json"
+              "tsConfig": "src/ngx-countdown/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-countdown/tsconfig.lib.json"
+              "tsConfig": "src/ngx-countdown/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/ngx-countdown/tsconfig.spec.json",
+            "tsConfig": "src/ngx-countdown/tsconfig.spec.json",
             "polyfills": ["zone.js", "zone.js/testing"]
           }
         }
