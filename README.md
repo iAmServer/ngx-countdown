@@ -1,6 +1,6 @@
-# ngx-countdown2
+# @iamserver/ngx-countdown
 
-ngx-countdown2 is an Angular library that provides a customizable countdown directive for displaying countdown timers in your Angular applications. With ngx-countdown2, you have full control over the styling of your countdown timer, allowing you to create a timer that matches your application's design.
+@iamserver/ngx-countdown is an Angular library that provides a customizable countdown directive for displaying countdown timers in your Angular applications. With @iamserver/ngx-countdown, you have full control over the styling of your countdown timer, allowing you to create a timer that matches your application's design.
 
 ## Features
 
@@ -11,10 +11,10 @@ ngx-countdown2 is an Angular library that provides a customizable countdown dire
 
 ## Installation
 
-You can install ngx-countdown2 using npm:
+You can install @iamserver/ngx-countdown using npm:
 
 ```bash
-npm install ngx-countdown2
+npm install @iamserver/ngx-countdown
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install ngx-countdown2
 1. Import the `NgxCountdownModule` into your Angular module:
 
 ```typescript
-import { NgxCountdownModule } from "ngx-countdown2";
+import { NgxCountdownModule } from "@iamserver/ngx-countdown";
 
 @NgModule({
   imports: [NgxCountdownModule],
@@ -95,7 +95,7 @@ If you encounter any issues or have suggestions for improvements, please open an
 
 ## Credits
 
-ngx-countdown2 is developed and maintained by [Ola Dayo](https://linkedin.com/in/iamserver).
+@iamserver/ngx-countdown is developed and maintained by [Ola Dayo](https://linkedin.com/in/iamserver).
 
 ## Acknowledgements
 
@@ -105,4 +105,4 @@ This library was inspired by the need for a customizable countdown timer directi
 
 For any inquiries or support requests, please contact [dasther@outlook.com](https://mailto:dasther@outlook.com).
 
-We hope you find ngx-countdown2 useful in your projects!
+We hope you find @iamserver/ngx-countdown useful in your projects!
